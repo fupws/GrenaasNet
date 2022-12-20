@@ -19,7 +19,9 @@ body {
 	height: 50px;
 	float:left;
 	text-align:center;	
-	
+	border-style: solid;
+	border-width: 2px 0px 2px 2px;
+	border-color:#274C77;
 }
 
 li a {
@@ -27,10 +29,8 @@ li a {
 	font-size:30px;
 	color:#274C77;
 	text-decoration: none;
+	
 	/*css til Grenaas net, 
-	Jeg kan ikke rigtigt få de følgende 3 til at virke.
-	border-style: solid;
-	border:500px;
 	border-color: #707070;
 	*/
 	 }
@@ -56,4 +56,32 @@ li a {
 	background-color: #A3CEF1;
 	color:#274C77;
 	font-family: rockwell, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.gridcontainer {
+	display:inline-grid;
+	grid-template-columns: auto auto;
+	padding:40px;
+	column-gap: 20%;
+	width: 90%;
+	max-height: 800px;
+	height: 600px;
+}
+.colonne1 {
+	background-color: #A3CEF1;
+	padding:50px;
+	font-family: rockwell, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	border-radius: 42px;
+	color:#274C77;
+	font-size:20px;
+			
+}
+.colonne2 {
+	background-color:#A3CEF1;
+	padding:50px;
+	font-family: rockwell, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	border-radius: 42px;
+	color:#274C77;
+	font-size:20px;
+	
 }
