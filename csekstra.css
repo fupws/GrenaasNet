@@ -20,43 +20,62 @@ body {
 	float:left;
 	text-align:center;	
 	border-style: solid;
-	border-width: 2px 0px 2px 2px;
 	border-color:#274C77;
 }
-
 li a {
 	font-family:  rockwell, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	font-size:30px;
 	color:#274C77;
 	text-decoration: none;
-	
-	/*css til Grenaas net, 
-	border-color: #707070;
-	*/
 	 }
 .li1 {
-	left:-20px;
 	width:15%;
-	
+	border-width: 2px 0px 2px 2px;
 }
 .li2 {
 	width:15%;
+	border-width: 2px 0px 2px 2px;
 }
 .li3 {
 	width:15%;
+	border-width: 2px 0px 2px 2px;
 }
 .li4 {
-	width:16%;
+	width:15%;
+	border-width: 2px 0px 2px 2px;
 }
 .li5 {
 	width:20%;
+	border-width: 2px 2px 2px 2px;
 }
-
+.nyheder {
+	 align-content: center;
+	background-color: white;
+	border-radius: 42px;
+	max-width:60%;
+	
+}
+.nyhedcontainer {
+	align-content: center;
+	background-color: #6096BA;
+	border-radius: 42px;
+	padding: 30px;
+	
+}
+.paragrafnyheder {
+	color:#274C77;
+	font-family:rockwell,Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+	font-size:30px;
+	text-align: center;
+	background-color:white;
+	border-radius:42px;
+	padding:0px 10px 0px 10px;
+}
 #aaa {
 	
 	color:#274C77;
 	font-family: rockwell, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-	padding:50px;
+	padding:40px 50px 50px ;
 	font-size:20px;
 }
 
@@ -68,6 +87,12 @@ li a {
 	margin-left:15%;
 	
 	
+}
+.paragraf{
+	color:#274C77;
+	font-family:rockwell,Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+	font-size:30px;
+	text-align: center;
 }
 .gridcontainer {
 	display:inline-grid;
