@@ -53,11 +53,22 @@ li a {
 }
 
 #aaa {
-	background-color: #A3CEF1;
+	
 	color:#274C77;
 	font-family: rockwell, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	padding:50px;
+	font-size:20px;
 }
 
+
+.infopanel {
+	background-color: #A3CEF1;
+	width: 30%;
+	border-radius:42px;
+	margin-left:15%;
+	
+	
+}
 .gridcontainer {
 	display:inline-grid;
 	grid-template-columns: auto auto;
