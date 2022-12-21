@@ -48,20 +48,30 @@ li a {
 	width:20%;
 	border-width: 2px 2px 2px 2px;
 }
+
+/*forside/hjemmeside*/
 .nyheder {
 	 align-content: center;
 	background-color: white;
 	border-radius: 42px;
 	max-width:60%;
+	min-width:400px
 	
 }
-.nyhedcontainer {
+.nyhedsektion {
 	align-content: center;
 	background-color: #6096BA;
 	border-radius: 42px;
 	padding: 30px;
-	
 }
+/*.nyhedscontainer {
+	display:inline-grid;
+	grid-template-columns: auto auto auto auto auto;
+	padding:40px;
+	column-gap: 5%;
+	width: 200%;
+}*/
+
 .paragrafnyheder {
 	color:#274C77;
 	font-family:rockwell,Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
@@ -78,8 +88,10 @@ li a {
 	padding:40px 50px 50px ;
 	font-size:20px;
 }
+/*forbind siden*/
 
 
+/*Kontakt siden*/
 .infopanel {
 	background-color: #A3CEF1;
 	width: 30%;
