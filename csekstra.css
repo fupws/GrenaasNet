@@ -89,7 +89,13 @@ li a {
 	font-size:20px;
 }
 /*forbind siden*/
-
+.abonnement {
+	background-color: #A3CEF1;
+	left:0px;
+	width:100%;
+	height: 500px;
+	
+}
 
 /*Kontakt siden*/
 .infopanel {
